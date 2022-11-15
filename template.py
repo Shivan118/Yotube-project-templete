@@ -17,18 +17,20 @@ logging.info(f"Creating project by name: {project_name}")
 list_of_files = [
     ".github/workflows/.gitkeep",
     ".github/workflows/ci.yaml",
-    f"scr/{project_name}/__init__.py",
+    f"src/{project_name}/__init__.py",
     f"test/__init__.py",
     f"test/unit/__init__.py",
     f"configs/config.yaml",
     f"docs/index.md",
     "init_setup.sh",
     "requirements.txt",
+    "requirements_dev.txt",
     "setup.py",
     "setup.cfg",
     "tox.ini",
     "main.py",
-    "mkdocs.yaml"
+    "mkdocs.yaml",
+    "README.md"
 ]
 
 
